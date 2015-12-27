@@ -15,7 +15,7 @@ int main()
     // this is the size of the array
     
     mergeSort(mike, 0, size - 1);
-    // takes the result of mergeSort and puts it in
+    // runs mergesort on the unsorted array
     
     for (int l = 0; l < size; l++) {
         printf("%d\n", mike[l]);
